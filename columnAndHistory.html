@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="javascripts/jquery-1.7.1.min.js"></script>
+    <script src="javascripts/loadXml.js"></script>
+    <script src="javascripts/getPagePost.js"></script>
+</head>
+<style type="text/css">
+    a:link {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #000000;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #999999;
+        text-decoration: none;
+    }
+</style>
+<script type="text/javascript">
+    var divHis;
+
+    function columnClick(divDoc) {
+        var url = $(divDoc).attr('xmlItem');
+        $("#history").attr('src',url);
+        $(divHis).css('backgroundColor','white');
+        $(divDoc).css('backgroundColor','#C9C9C9');
+        divHis = divDoc;
+    }
+
+    function iFrameHeight() {
+        var ifm= document.getElementById('history');
+        var subWeb = document.frames ? document.frames['history'].document : ifm.contentDocument;
+        if(ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight+100;
+        }
+    }
+
+    function setTitle() {
+        var titValue;
+        var titleNumber = getUrlParam('title');
+
+        if(titleNumber==1){
+            titValue = '原型列表';
+        }
+        else if(titleNumber==2){
+            titValue = 'PRD列表';
+        }
+
+        $(document).attr('title',titValue);
+        $("#title").text(titValue);
+    }
+
+    window.onload=function () {
+        var url = getUrlParam('url');
+
+        historyMenu(url,function(data){
+            $("#menuDiv").append(data);
+            var divDoc = $("#menuDiv").children()[0];
+            divHis = divDoc;
+            columnClick(divDoc);
+            setTitle();
+        });
+    }
+</script>
+<body>
+<div>
+    <h1 id="title"></h1>
+</div>
+<div style="border: solid; border-width: 1px;border-color: #212121;height: 0px"></div>
+<p></p>
+<div>
+    <div id="menuDiv" style="display: inline-block;float: left;width: 14%">
+    </div>
+    <div style="display: inline-block;float: right;width: 85%;">
+        <iframe id="history" src="" onload="iFrameHeight()" style="width: 100%" frameborder="no" scrolling="no">
+        </iframe>
+    </div>
+</div>
+</body>
+</html>

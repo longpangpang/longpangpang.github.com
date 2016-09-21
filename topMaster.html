@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>topMaster</title>
+    <script src="javascripts/jquery-1.7.1.min.js"></script>
+    <script src="javascripts/bmob-min.js"></script>
+</head>
+<script type="text/javascript">
+
+    function aaa() {
+        Bmob.Cloud.run('upLoad', {"name":"a"}, {
+            success: function(result) {
+                alert(result);
+            },
+            error: function(error) {
+            }
+        })
+    }
+
+
+    function bbb() {
+        $.ajax({
+            url:"http://cloud.bmob.cn/e379b00b03ed1e1a/upLoad",
+            dataType:'jsonp',
+            data:'',
+            jsonp:'callback',
+            success:function(result) {
+                //result.results[0].totalPV
+                alert('aaaa');
+            }
+        });
+    }
+
+    function historyMenu() {
+        $.get('http://cloud.bmob.cn/e379b00b03ed1e1a/upLoad?name=a', function (data) {
+            alert(data);
+        })
+    }
+
+    function inHtml() {
+        alert('a');
+        $("#a").html('<div onclick="inHtml()">aaa</div>');
+    }
+</script>
+<body scroll="no" style="margin: 0px;padding: 0px">
+<div id="a" style="height: 30px">
+    <div onclick="bbb()">bbb</div>
+</div>
+</body>
+</html>

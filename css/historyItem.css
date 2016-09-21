@@ -1,0 +1,40 @@
+li{
+    padding: 3px;
+    font-size: 0.8em;
+}
+
+div{
+    border: solid;
+    border-width: 1px;
+    border-color: #C9C9C9;
+}
+
+.divTop{
+    height: 20px;
+    line-height: 20px;
+    background-color: #C9C9C9;
+}
+
+p{
+    font-size: 0.5em;
+    display: inline-block;
+    margin: 0 15px 0 22px;
+    font-weight:bold;
+    vertical-align: middle;
+}
+
+a:link {
+    color: #009dda;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+a:visited {
+    color: #009dda;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}
+a:hover {
+    color: #08639C;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+}

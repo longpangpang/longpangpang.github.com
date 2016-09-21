@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.2</number>
+        <status>最新</status>
+        <up_date>2016-09-21</up_date>
+        <down_href>prdDocument/auction/version1.2/竞拍系统-v1.2.docx</down_href>
+        <look_href>prdDocument/auction/version1.2/竞拍系统-v1.2.pdf</look_href>
+        <detailed>
+            <point>更新"新增拍卖"中的部分元素说明。</point>
+            <point>更新"修改拍卖"中的部分元素说明。</point>
+        </detailed>
+    </version>
+    <version>
+        <number>1.1</number>
+        <status>历史</status>
+        <up_date>2016-09-18</up_date>
+        <down_href>prdDocument/auction/version1.1/竞拍系统-v1.1.docx</down_href>
+        <look_href>prdDocument/auction/version1.1/竞拍系统-v1.1.pdf</look_href>
+        <detailed>
+            <point>更新竞拍系统的产品背景。</point>
+            <point>更新竞拍系统的产品目标。</point>
+        </detailed>
+    </version>
+    <version>
+        <number>1.0</number>
+        <status>历史</status>
+        <up_date>2016-09-17</up_date>
+        <down_href>prdDocument/auction/version1.0/竞拍系统-v1.0.docx</down_href>
+        <look_href>prdDocument/auction/version1.0/竞拍系统-v1.0.pdf</look_href>
+        <detailed>
+            <point>竞拍系统第一个版本的PRD文档。</point>
+            <point>主要描述功能的页面:拍卖列表、竞拍详情、支付保证金、我的拍卖、发布拍卖、我的竞拍。</point>
+            <point>主要有流程说明、规则说明、元素说明、用例说明。</point>
+        </detailed>
+    </version>
+</auctionPro>

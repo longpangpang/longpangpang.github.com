@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.0</number>
+        <status>最新</status>
+        <up_date>2016-09-16</up_date>
+        <down_href>prototype/auction/version1.0/竞拍模式.rp</down_href>
+        <look_href>prototype/auction/version1.0/index.html</look_href>
+        <detailed>
+            <point>竞拍系统第一个版本,实现竞拍体系最基本元素、流程与体系。</point>
+            <point>主要功能页面:拍卖列表、竞拍详情、支付保证金、我的拍卖、发布拍卖、我的竞拍。</point>
+        </detailed>
+    </version>
+</auctionPro>

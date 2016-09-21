@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史版本</title>
+    <link href="css/historyItem.css" type="text/css" rel="stylesheet"/>
+    <script src="javascripts/jquery-1.7.1.min.js"></script>
+    <script src="javascripts/loadXml.js"></script>
+    <script src="javascripts/getPagePost.js"></script>
+</head>
+<script type="text/javascript">
+    window.onload=function () {
+
+        var url = getUrlParam('url');
+
+        historyItem(url,function(data){
+            $('body').html(data);
+        });
+    }
+
+</script>
+<body scroll="no" style="margin: 0px;padding: 0px">
+
+</body>
+</html>

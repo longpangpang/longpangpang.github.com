@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.0</number>
+        <status>最新</status>
+        <up_date>2016-09-16</up_date>
+        <down_href>prototype/mobileM/version1.0/M站一期.rp</down_href>
+        <look_href>prototype/mobileM/version1.0/index.html</look_href>
+        <detailed>
+            <point>移动M站第一个版本,主要打通正向交易流程与买家最基本的信息维护。</point>
+            <point>主要功能页面:会员中心(买家端简易版)、订单列表、收货地址、进货车、订单填写、订单详细、支付页面、物流详情。</point>
+        </detailed>
+    </version>
+</auctionPro>

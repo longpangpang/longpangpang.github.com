@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.0</number>
+        <status>最新</status>
+        <up_date>2016-09-17</up_date>
+        <down_href>prdDocument/mobileM/version1.0/移动M站-v1.0.docx</down_href>
+        <look_href>prdDocument/mobileM/version1.0/移动M站-v1.0.pdf</look_href>
+        <detailed>
+            <point>移动M站第一个版本的PRD文档。</point>
+            <point>主要描述功能的页面:会员中心(买家简易版)、订单列表、订单详情、物流详情、进货单、提交订单、收货地址、支付页面。</point>
+            <point>主要有流程说明、规则说明、元素说明、用例说明。</point>
+        </detailed>
+    </version>
+</auctionPro>

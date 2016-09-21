@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menuItem>
+    <menu hisXml="prdDocument_HistoryItem/auction.xml">竞拍系统</menu>
+    <menu hisXml="prdDocument_HistoryItem/mobileM.xml">移动M站</menu>
+</menuItem>
