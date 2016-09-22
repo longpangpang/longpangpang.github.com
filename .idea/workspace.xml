@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3870951-7d53-4b51-a2d9-88a1c4fd7a3e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="longpangpang.github.com.iws" />
@@ -168,12 +169,12 @@
       <updated>1474452350680</updated>
       <workItem from="1474452352723" duration="9000" />
       <workItem from="1474453172916" duration="28000" />
-      <workItem from="1474458559551" duration="500000" />
+      <workItem from="1474458559551" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="537000" />
+    <option name="totallyTimeSpent" value="666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1278" height="736" extended-state="6" />
