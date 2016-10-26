@@ -4,7 +4,7 @@
         <number>2.0</number>
         <status>最新</status>
         <up_date>2016-10-26</up_date>
-        <down_href>prototype/auction/version2.0/竞拍平台.rp</down_href>
+        <down_href>prototype/auction/version2.0/竞拍模式.rp</down_href>
         <look_href>prototype/auction/version2.0/index.html</look_href>
         <detailed>
             <point>新增了交易与支付相关的系统</point>
@@ -14,7 +14,7 @@
         <number>1.0</number>
         <status>历史</status>
         <up_date>2016-09-16</up_date>
-        <down_href>prototype/auction/version1.0/竞拍模式.rp</down_href>
+        <down_href>prototype/auction/version1.0/竞拍平台.rp</down_href>
         <look_href>prototype/auction/version1.0/index.html</look_href>
         <detailed>
             <point>竞拍系统第一个版本,实现竞拍体系最基本元素、流程与体系。</point>

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3870951-7d53-4b51-a2d9-88a1c4fd7a3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototype/auction/version1.0/竞拍模式.rp" afterPath="$PROJECT_DIR$/prototype/auction/version1.0/竞拍模式.rp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/columnAndHistory.html" afterPath="$PROJECT_DIR$/columnAndHistory.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml" afterPath="$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml" />
     </list>
     <ignored path="longpangpang.github.com.iws" />
@@ -26,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -36,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auction.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auction.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -126,8 +124,8 @@
         <option value="$PROJECT_DIR$/javascripts/loadXml.js" />
         <option value="$PROJECT_DIR$/historyItem.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml" />
         <option value="$PROJECT_DIR$/columnAndHistory.html" />
+        <option value="$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml" />
       </list>
     </option>
   </component>
@@ -167,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -292,6 +289,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -389,12 +387,13 @@
       <workItem from="1476164751836" duration="6000" />
       <workItem from="1476458317837" duration="9000" />
       <workItem from="1476458521157" duration="62000" />
-      <workItem from="1477471579543" duration="558000" />
+      <workItem from="1477471579543" duration="999000" />
+      <workItem from="1477473205523" duration="39000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22256000" />
+    <option name="totallyTimeSpent" value="22736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
@@ -861,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/columnAndHistory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -886,6 +877,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xmls/prototype_HistoryItem/auction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
