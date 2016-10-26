@@ -25,10 +25,6 @@
 <script type="text/javascript">
     var divHis;
 
-    function aaa() {
-        $('#aaa').val('aaaa');
-    }
-
     function columnClick(divDoc) {
         var url = $(divDoc).attr('xmlItem');
         $('#history').attr('src',url);
@@ -36,15 +32,14 @@
         $(divDoc).css('backgroundColor','#C9C9C9');
         divHis = divDoc;
         iFrameHeight();
-
     }
 
     function iFrameHeight() {
         var ifm = $('#history')[0];
         var subWeb = ifm.contentWindow.document;
         var bodyHeight =  subWeb.body.clientHeight;
-        if(bodyHeight<560){
-            bodyHeight = 560;
+        if(bodyHeight<800){
+            bodyHeight = 800;
         }
         $(ifm).attr('height',bodyHeight + 'px');
     }
