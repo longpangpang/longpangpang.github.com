@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <auctionPro>
     <version>
-        <number>2.1</number>
+        <number>2.2</number>
         <status>最新</status>
+        <up_date>2016-10-31</up_date>
+        <down_href>prototype/auction/version2.2/竞拍模式.rp</down_href>
+        <look_href>prototype/auction/version2.2/index.html</look_href>
+        <detailed>
+            <point>在原型上添加了交互</point>
+        </detailed>
+    </version>
+    <version>
+        <number>2.1</number>
+        <status>历史</status>
         <up_date>2016-10-27</up_date>
         <down_href>prototype/auction/version2.1/竞拍模式.rp</down_href>
         <look_href>prototype/auction/version2.1/index.html</look_href>
