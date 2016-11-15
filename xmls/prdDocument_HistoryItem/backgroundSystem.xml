@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.0</number>
+        <status>最新</status>
+        <up_date>2016-11-15</up_date>
+        <down_href>prdDocument/backgroundSystem/version1.0/站点分类管理-v1.0.docx</down_href>
+        <look_href>prdDocument/backgroundSystem/version1.0/站点分类管理-v1.0.pdf</look_href>
+        <detailed>
+            <point>后台系统的第一个版本的PRD文档。</point>
+        </detailed>
+    </version>
+</auctionPro>
