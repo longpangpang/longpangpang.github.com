@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<auctionPro>
+    <version>
+        <number>1.0</number>
+        <status>最新</status>
+        <up_date>2016-11-21</up_date>
+        <down_href>prdDocument/duizhang/version1.0/对账系统-v1.0.docx</down_href>
+        <look_href>prdDocument/duizhang/version1.0/对账系统-v1.0.pdf</look_href>
+        <detailed>
+            <point>对账系统第一个版本的PRD文档。</point>
+        </detailed>
+    </version>
+</auctionPro>

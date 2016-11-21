@@ -4,4 +4,5 @@
     <menu hisXml="prdDocument_HistoryItem/mobileM.xml">移动M站</menu>
     <menu hisXml="prdDocument_HistoryItem/deal.xml">订单体系</menu>
     <menu hisXml="prdDocument_HistoryItem/backgroundSystem.xml">后台系统</menu>
+    <menu hisXml="prdDocument_HistoryItem/duizhang.xml">对账系统</menu>duizha
 </menuItem>
