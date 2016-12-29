@@ -3,7 +3,7 @@ li{
     font-size: 0.8em;
 }
 
-div{
+.divItemC{
     border: solid;
     border-width: 1px;
     border-color: #C9C9C9;
@@ -23,17 +23,17 @@ p{
     vertical-align: middle;
 }
 
-a:link {
+.itemA:link {
     color: #009dda;
     text-decoration: none;
     margin: 0 10px 0 0;
 }
-a:visited {
+.itemA:visited {
     color: #009dda;
     text-decoration: none;
     margin: 0 10px 0 0;
 }
-a:hover {
+.itemA:hover {
     color: #08639C;
     text-decoration: none;
     margin: 0 10px 0 0;

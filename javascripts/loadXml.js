@@ -2,7 +2,7 @@
  * Created by longhaibo on 16/9/17.
  */
 
-var htmlVersionList = '';
+
 
 function topDiv(str) {
     var rhtml = '<div class="divTop">'+str+'</div>';
@@ -30,17 +30,17 @@ function actionP(str) {
 }
 
 function downA(str) {
-    var rhtml = '<a href="'+str+'" style="font-size: 0.5em">下载</a>';
+    var rhtml = '<a href="'+str+'" class="itemA" style="font-size: 0.9em">下载</a>';
     return rhtml;
 }
 
 function lookA(str) {
-    var rhtml = '<a href="'+str+'" style="font-size: 0.5em" target="_blank">浏览</a>';
+    var rhtml = '<a href="'+str+'" class="itemA" style="font-size: 0.9em" target="_blank">浏览</a>';
     return rhtml;
 }
 
 function detailedDivUl(str) {
-    var rhtml = '<div><ul>'+str+'</ul></div>';
+    var rhtml = '<div class="divItemC"><ul>'+str+'</ul></div>';
     return rhtml;
 }
 
@@ -51,6 +51,7 @@ function pointLi(str) {
 
 //获取历史版本内容列表
 function historyItem(url,callbck) {
+    var htmlVersionList = '';
     url = 'xmls/'+url;
     $.get(url, function (data) {
         $(data).find('version').each(
@@ -105,7 +106,6 @@ function menuA(str) {
 }
 
 function menuDiv(url,str) {
-    var url = 'historyItem.html?url=' + url;
     var rhtml = '<div name="itemDiv" style="padding: 5px" xmlItem ="'+url+'" onclick="columnClick(this)">'+str+'</div>';
     return rhtml;
 }

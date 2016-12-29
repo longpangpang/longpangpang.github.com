@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-
+    <link href="css/historyItem.css?5" type="text/css" rel="stylesheet"/>
     <script src="javascripts/jquery-1.7.1.min.js"></script>
-    <script src="javascripts/loadXml.js?2"></script>
-    <script src="javascripts/getPagePost.js"></script>
+    <script src="javascripts/loadXml.js?4"></script>
+    <script src="javascripts/getPagePost.js?1"></script>
 </head>
 <style type="text/css">
     a:link {
@@ -25,25 +25,19 @@
 <script type="text/javascript">
     var divHis;
 
+    //点击项目菜单事件
     function columnClick(divDoc) {
         var url = $(divDoc).attr('xmlItem');
-        $('#history').attr('src',url);
+        $('#history').empty();
+        historyItem(url,function(data){
+            $('#history').html(data);
+        });
         $(divHis).css('backgroundColor','white');
         $(divDoc).css('backgroundColor','#C9C9C9');
         divHis = divDoc;
-        iFrameHeight();
     }
 
-    function iFrameHeight() {
-        var ifm = $('#history')[0];
-        var subWeb = ifm.contentWindow.document;
-        var bodyHeight =  subWeb.body.clientHeight;
-        if(bodyHeight<800){
-            bodyHeight = 800;
-        }
-        $(ifm).attr('height',bodyHeight + 'px');
-    }
-
+    //设置title属性值
     function setTitle() {
         var titValue;
         var titleNumber = getUrlParam('title');
@@ -80,9 +74,7 @@
 <div>
     <div id="menuDiv" style="display: inline-block;float: left;width: 14%">
     </div>
-    <div style="display: inline-block;float: right;width: 85%;">
-        <iframe id="history" src=""   style="width: 100%" frameborder="no" scrolling="no">
-        </iframe>
+    <div id="history" style="display: inline-block;float: right;width: 85%;">
     </div>
 </div>
 </body>
