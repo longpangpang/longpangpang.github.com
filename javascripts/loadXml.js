@@ -70,8 +70,13 @@ function historyItem(url,callbck) {
 
                 var down_href = $(this).children('down_href').text();
                 var look_href = $(this).children('look_href').text();
-
-                htmlVersionTop +=actionP(downA(down_href)+lookA(look_href));
+                
+                if(look_href!='null'){
+                    htmlVersionTop +=actionP(downA(down_href)+lookA(look_href));
+                }else {
+                    htmlVersionTop +=actionP(downA(down_href));
+                }
+                
                 
                 htmlVersionTop = topDiv(htmlVersionTop);
 
